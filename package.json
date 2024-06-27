@@ -4,7 +4,10 @@
   "description": "Connection Pooling of MySQL2 and Node JS",
   "main": "server.js",
   "scripts": {
-    "test": "Hello"
+    "start": "dotenv -e .env node server.js",
+    "start:local": "dotenv -e .env.local node server.js",
+    "start:qa": "dotenv -e .env.qa node server.js",
+    "start:prod": "dotenv -e .env.prod node server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
   },
   "homepage": "https://github.com/Kaddyp/node_mysql2_pooling#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",  //Install globally using command `npm install -g dotenv-cli` and run script.
     "express": "^4.19.2",
     "mysql2": "^3.10.1"
   }
