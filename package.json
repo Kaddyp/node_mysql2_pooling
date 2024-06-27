@@ -1,0 +1,31 @@
+{
+  "name": "node_mysql2_pooling",
+  "version": "1.0.0",
+  "description": "Connection Pooling of MySQL2 and Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "Hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaddyp/node_mysql2_pooling.git"
+  },
+  "keywords": [
+    "Node",
+    "Js",
+    "Mysql2",
+    "Pooling",
+    "React",
+    "Database"
+  ],
+  "author": "KaddyP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaddyp/node_mysql2_pooling/issues"
+  },
+  "homepage": "https://github.com/Kaddyp/node_mysql2_pooling#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1"
+  }
+}
