@@ -9,6 +9,5 @@ const access = {
   connectionLimit : 10,
 };
 
-const conn = mysql.createConnection(access);
 const pool = mysql.createPool(access);
-module.exports = {conn, pool};
+module.exports = {pool};
